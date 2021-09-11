@@ -1,0 +1,23 @@
+body {
+    font-family: system-ui;
+    background: #04633b;
+    color: white;
+    text-align: center;
+  }
+  .main_font {
+    color: black;
+  }
+  .o_mnie {
+    color: rgb(60, 0, 255);
+    padding: 1px;
+    font-size: 35px;
+    margin-left: 1px
+  }
+  .zdjencie{
+      height: 350px;
+
+  }
+  .container{
+      width: 50% ;
+      border: 2px red ;
+  }

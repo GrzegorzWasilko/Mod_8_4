@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+    {% block head %}   
+        <meta charset="utf-8">
+        <title>Wizytowka FLask Mod_8_4</title>
+        <link rel="stylesheet" href="{{ url_for( 'static' , filename='style.css')}}">
+    {% endblock %}
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="main_font">Witaj na stronie zadania 8.4</h1>
+            <img class="zdjencie" src="{{ url_for('static',filename='selficat.png')}}" alt="NIe zadziałało" title="Cat_pic">
+            {% block content %}
+            {% endblock %}
+        </div>
+    </body>
+</html>
